@@ -1,0 +1,45 @@
+@font-face {
+    font-family: title;
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+@font-face {
+    font-family: paragraph;
+    src: url(../fonts/Redressed-Regular.ttf);
+}
+
+body{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: greenyellow;
+    padding: 20px 20px;
+}
+.navbar_items{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_items > li{
+    display: inline-block;
+}
+#brandName{
+    font-family: title;
+    letter-spacing: 5px;
+    padding: 5px 10px;
+    background-color: goldenrod;
+}
+.container{
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.material{
+    border: 2px solid green;
+}
+.material > p{
+    font-family: 'paragraph';
+    font-size: 1.5rem;
+    word-spacing: 4px;
+}
